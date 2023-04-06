@@ -1,0 +1,7 @@
+webpack打包笔记：
+1. webpack打包注意事项：
+  1.1 入口：默认会读取webpack.config.js文件里面的配置，如果没有此文件， 默认会读取当前目录的src文件夹下的index.js，如果没有就会报错
+  1.2 出口：默认会读取webpack.config.js文件里面的配置，如果没有此文件， 默认会输出到当前目录下的dist文件夹,默认打包的文件叫main.js
+
+2. webpack处理css注意事项：
+  2.1需要对应的loader来加载css文件，css-loader负责处理css文件，style-loader负责把处理的css文件渲染到浏览器，而且必不可少
